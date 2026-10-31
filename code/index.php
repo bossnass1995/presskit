@@ -299,22 +299,6 @@ if ($handle = opendir('.')) {
 closedir($handle);
 
 echo '							</p>
-							<p>';
-
-if( count($address) > 0 )
-{
-	echo '<strong>'. tl('Address:') .'</strong><br/>';
-	for( $i = 0; $i < count($address); $i++ )
-	{
-		echo $address[$i].'<br/>';
-	}
-}
-
-echo'							</p> 
-							<p>
-								<strong>'. tl('Phone:') .'</strong><br/>
-								'. COMPANY_PHONE .'
-							</p>
 						</div>
 						<div class="uk-width-medium-4-6">
 							<h2 id="description">'. tl('Description') .'</h2>

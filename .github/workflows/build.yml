@@ -31,6 +31,15 @@ jobs:
           mkdir -p output
           wget --mirror --convert-links --adjust-extension --page-requisites --no-parent \
                --no-host-directories --directory-prefix=output http://127.0.0.1:8080 || true
+          # wget only mirrors files the pages link to; copy the full asset
+          # folders so videos, WebM clips, SVGs, and the zip are served too.
+          mkdir -p output/images
+          cp -r code/images/. output/images/
+          for g in code/games/*/; do
+            n=$(basename "$g")
+            mkdir -p "output/games/$n/images"
+            cp -r "$g/images/." "output/games/$n/images/"
+          done
 
       - name: Stop containers
         if: always()

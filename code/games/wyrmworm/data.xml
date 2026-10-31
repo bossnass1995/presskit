@@ -8,7 +8,7 @@
 	<title>WyrmWorm</title>
 	<release-date>Coming Soon (targeting Q2 2027)</release-date>
 	<website>https://takeabreakgames.com/</website>
-	<press-can-request-copy>TRUE</press-can-request-copy>
+	<press-can-request-copy>FALSE</press-can-request-copy>
 
 	<platforms>
 		<platform>
@@ -52,6 +52,16 @@
 	</quotes>
 
 	<additionals>
+		<additional>
+			<title>Download all assets</title>
+			<description>Every screenshot, logo, and icon in one zip (35 MB) at</description>
+			<link>https://bossnass1995.github.io/presskit/games/wyrmworm/images/WyrmWorm_PressKit_Assets.zip</link>
+		</additional>
+		<additional>
+			<title>Trailer download</title>
+			<description>Announce trailer, 1920x1080 MP4 (60 MB) at</description>
+			<link>https://bossnass1995.github.io/presskit/games/wyrmworm/images/trailer_1920x1080.mp4</link>
+		</additional>
 		<additional>
 			<title>Steam Playtest</title>
 			<description>A free playtest is live now. Hit Request Access on the Steam page at</description>

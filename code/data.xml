@@ -10,10 +10,6 @@
 	<website>https://takeabreakgames.com/</website>
 	<based-in>Salt Lake City, Utah, USA</based-in>
 	<press-contact>takeabreakgamesadmin@gmail.com</press-contact>
-	<phone></phone>
-	<address>
-		<line></line>
-	</address>
 
 	<socials>
 		<social>
@@ -65,7 +61,7 @@
 		<!-- Add press or notable player quotes here as they come in. -->
 	</quotes>
 
-	<press-can-request-copy>TRUE</press-can-request-copy>
+	<press-can-request-copy>FALSE</press-can-request-copy>
 	<monetization-permission>monetize</monetization-permission>
 
 	<additionals>
