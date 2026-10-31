@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  WyrmWorm game press kit for presskittie(). Facts verified against the repo
+  on 2026-10-30: version 0.13.0, 55 puzzles wired into the full map, 20 in the
+  demo/playtest map, four zones. Trailer: https://youtu.be/BgCNO7v7pZM
+-->
+<game>
+	<title>WyrmWorm</title>
+	<release-date>Coming Soon (targeting Q2 2027)</release-date>
+	<website>https://takeabreakgames.com/</website>
+	<press-can-request-copy>TRUE</press-can-request-copy>
+
+	<platforms>
+		<platform>
+			<name>Steam (Windows, Linux, Steam Deck)</name>
+			<link>https://store.steampowered.com/app/4806590/WyrmWorm/</link>
+		</platform>
+	</platforms>
+
+	<prices>
+	</prices>
+
+	<description>
+		WyrmWorm is a logic puzzle where you do not find a path, you fill a board. Wyrms crawl across a hand-painted grid and the puzzle only ends when every cell is packed and every flower is eaten. Each new wyrm grows out of the last one's body, so one early move shapes the whole solution. It borrows the push of Sokoban and the exact fit of sudoku and plays like neither. There is no timer and no score. Undo costs nothing. The whole game lives in the thinking.
+	</description>
+
+	<history>
+		WyrmWorm began as a game jam entry in January 2026. Jared Von Nickerl and Tom Yancey had just come off months of grinding on a larger project and wanted something small enough to finish and polish properly. The jam build was fun to make and fun to play, so they kept going. Jared wanted hand-painted art, Tom wanted puzzle mechanics worth building on, and the first ideas, hydras and time travel, grew into the branching wyrms and the fill-every-cell rule. Take A Break Games formed around the project in May 2026. Every puzzle runs through an exhaustive solver with a measured difficulty score before it ships, and a public playtest went live on Steam in October 2026.
+	</history>
+
+	<features>
+		<feature>Fill every cell: a routing puzzle with an exact-cover win condition. A solution is a tiling, not a path.</feature>
+		<feature>Branching wyrms: each new wyrm sprouts from the body of the one before it, so every puzzle is a single interlocking decision.</feature>
+		<feature>Four hand-painted worlds (Bluesky Bluffs, Cerulean Seafloor, Galaxy Gardens, Cyberslide City), each built around its own mechanic: gates, portals, boxes, pits.</feature>
+		<feature>Undo, redo, scalable hints, and a paint mode for thinking out loud. The game is built for experimentation, not punishment.</feature>
+		<feature>Solver-verified puzzles with measured difficulty, and accessibility options including colorblind-readable wyrms and reduced motion. Mouse, keyboard, touch, and gamepad.</feature>
+	</features>
+
+	<trailers>
+		<trailer>
+			<name>Trailer</name>
+			<youtube>BgCNO7v7pZM</youtube>
+			<vimeo></vimeo>
+		</trailer>
+	</trailers>
+
+	<awards>
+	</awards>
+
+	<quotes>
+		<!-- Add a quotable line from a streamer or player here once the playtest produces one, with a link. -->
+	</quotes>
+
+	<additionals>
+		<additional>
+			<title>Steam Playtest</title>
+			<description>A free playtest is live now. Hit Request Access on the Steam page at</description>
+			<link>https://store.steampowered.com/app/4806590/WyrmWorm/</link>
+		</additional>
+	</additionals>
+
+	<credits>
+		<credit>
+			<person>Jared Von Nickerl</person>
+			<website>https://www.jarednickerlart.com/</website>
+			<role>Art, Animation, Design</role>
+		</credit>
+		<credit>
+			<person>Tom Yancey</person>
+			<website>https://bsky.app/profile/cheeseoncheese.bsky.social</website>
+			<role>Programming, Systems, Design, Music</role>
+		</credit>
+		<credit>
+			<person>Dalekcon</person>
+			<website></website>
+			<role>Sound</role>
+			<!-- Update the name once Dalekcon says how he wants to be credited. -->
+		</credit>
+	</credits>
+</game>
